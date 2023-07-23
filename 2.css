@@ -12,10 +12,13 @@
 
 body {
     min-height: 100vh;
+    
     background: url('background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -25,7 +28,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: transparent;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,12 +83,53 @@ body {
     
 span {
     color: red;
+
 }
 
+.container {
+    width: 100%;
+    background-color: #dddddd00;
+  }
+  
+  .skills {
+      border-radius: 25px;
+      color: white;
+      text-align: right;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .a {width: 90%; background-color: #5434f3;}
+  .b {width: 90%; background-color: #2ebd06;}
+  .c {width: 70%; background-color: #1cef86;}
+  .d {width: 70%; background-color: #e7e720;}
+  .e {width: 60%; background-color: #fa6e16;}
+  .f {width: 60%; background-color: #f51010;}
+
+  footer {
+    margin-top: auto;
+    padding: 3px;
+    background-color: transparent;
+    margin-top: auto;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+
 @media screen and (max-width: 800px) {
+
+    body, img {
+        width: 100%;
+        height: auto;
+    }
     .Text {
         padding: 0 22px;
         margin: 0 22px;
         display: flex;
+
     }
 }
