@@ -19,11 +19,23 @@
 
 </header>
 <div class="Text">
-<center>
-<h2>Hey this is Yash Singh, Nice to meet you</h2><br><br>
-    <h4>This my Resume displayed via a website disgned by me,<br><br>
+<My>
+<h1>Hey this is Yash Singh, Nice to meet you</h1><br><br>
+    <h3>This my Resume displayed via a website disgned by me,</h3><br><br>
+    <h2>I am a 
+    <span id="element"></span></h2><br>
 
-My objective is to work in a environment where I can utilize my skills and knowledge to the best of my abilities and contribute towards the growth of the organization.
-</center></h4></div>
+<h3>My objective is to work in a environment where I can utilize my skills and knowledge to the best of my abilities and contribute towards the growth of the organization.
+</center></h3></div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Student.', 'Developer.', 'Designer.', 'Programmer.'],
+        typeSpeed: 50,
+        backSpeed: 20,
+        loop: true,
+    });
+</script>
 </body>
 </html>
