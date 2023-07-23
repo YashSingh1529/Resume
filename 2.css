@@ -67,3 +67,13 @@ body {
     justify-content: center;
     padding-top: 30vh;
 }
+
+@media screen and (max-width: 800px) {
+    .header {
+        padding: 20px 50px;
+    }
+    .navbar a {
+        margin-left: 20px;
+    }
+}
+    
